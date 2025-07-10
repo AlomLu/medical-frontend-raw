@@ -36,6 +36,15 @@ a{
 .pt-60{
     padding-top: 60px;
 }
+.pb-60{
+    padding-bottom: 60px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
 .btn {
 	background: #4e97fd;
 	padding: 5px 20px;
@@ -49,9 +58,6 @@ a{
 }
 .btn:hover{
   background: #0ED3B0;
-}
-.pb-60{
-    padding-bottom: 60px;
 }
 .fix:before{
     content: "";
@@ -68,6 +74,38 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
+}
+
+.section-title {
+	margin-bottom: 40px;
+}
+.section-title h4 {
+	font-size: 35px;
+	font-weight: 600;
+	text-transform: capitalize;
+	position: relative;
+	margin-bottom: 35px;
+	padding-bottom: 35px;
+	color: black;
+}
+.section-title h4::before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 178px;
+	width: 90px;
+	height: 2px;
+	background: #ff3636;
+}
+.section-title h4::after {
+	position: absolute;
+	content: "";
+	bottom: -6px;
+	left: 212px;
+	height: 15px;
+	width: 15px;
+	background: #ff3636;
+	border-radius: 50%;
 }
 .container{
     width: 1170px;
@@ -261,4 +299,32 @@ body{
 }
 .single-service-highlights ul li span {
 	padding-left: 60px;
+}
+
+.about {
+	color: gray;
+}
+.about-img {
+  width: 550px;
+  margin-right: 25px;
+}
+.about-content {
+  width: 575px;
+}
+.about-content ul {
+	margin: 35px 0 40px 0;
+}
+.about-content ul li{
+  position: relative;
+  padding-left: 35px;
+}
+.about-content ul li::before {
+	position: absolute;
+	content: "\f058";
+	font-family: "Font Awesome 5 free";
+	font-weight: 700;
+	top: 0;
+	left: 0;
+	color: #0ED3B0;
+	font-size: 20px;
 }
