@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    transition: .3s;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+.fix:before{
+    content: "";
+    clear: both;
+    display: table;
+}
+.fix:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header-top {
+  background: #F7FBFF; 
+  padding: 15px 0;
+}
+.contact {
+  width: 500px;
+  color: gray;
+}
+.contact ul li {
+	display: inline-block;
+	margin-right: 20px;
+	font-weight: 300;
+}
+.contact ul li:last-child, .social-links ul li:last-child{
+  margin-right: 0;
+}
+.contact ul li:hover, .contact ul li:hover a, .social-links ul li a:hover, .logo ul li a:hover, .menu ul li a:hover{
+    color: #4E97FD;;
+}
+.social-links {
+  width: 500px;
+  text-align: right;
+}
+.social-links ul li {
+	display: inline-block;
+    margin-right: 25px;
+    font-size: 17px;
+}
+.contact ul li i {
+  margin-right: 10px;
+}
+.social-links ul li a {
+  color: gray;
+  display: block;
+}
+
+.header-bottom {
+	padding: 25px 0;
+}
+.logo ul li {
+  margin-right: 15px;
+  display: inline-block;
+}
+.logo ul li:last-child, .menu ul li:last-child {
+  margin-right: 0;
+}
+.logo ul li a {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+}
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.menu ul li a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+}
+/* #4E97FD */
