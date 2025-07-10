@@ -1,3 +1,13 @@
+/* 
+  Index
+  ==
+
+  01. Header Area
+  02. Appointment Area
+  03. service-highlights Area
+
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
@@ -28,13 +38,14 @@ a{
 }
 .btn {
 	background: #4e97fd;
-	padding: 12px 20px;
+	padding: 5px 20px;
 	color: #fff;
 	text-transform: capitalize;
 	font-weight: 600;
 	font-size: 17px;
 	border-radius: 5px;
-  transition: .3s;
+	transition: .3s;
+	display: inline-block;
 }
 .btn:hover{
   background: #0ED3B0;
@@ -59,9 +70,10 @@ body{
     line-height: 27px;
 }
 .container{
-    width: 1000px;
+    width: 1170px;
     margin: 0 auto;
 }
+/* Header Area */
 .header-top {
   background: #F7FBFF; 
   padding: 15px 0;
@@ -124,7 +136,7 @@ body{
 }
 /* #4E97FD */
 
-/*2. Appointment */
+/* Appointment Area */
 .appointment-area {
   background: #F7FBFF;
 }
@@ -132,7 +144,6 @@ body{
   width: 550px;
   margin-right: 20px;
   left: 0px;
-  /*! transform: translateY(-50%); */
 }
 .appointment-content {
   padding-top: 40px;
@@ -195,4 +206,59 @@ body{
 	background-image: repeating-linear-gradient( 60deg, transparent, transparent 10px, #dbeafe 10px, #dbeafe 20px ), repeating-linear-gradient( -60deg, transparent, transparent 10px, #dbeafe 10px, #dbeafe 20px );
 	opacity: 1;
 	z-index: -55;
+}
+
+/* service-highlights Area */
+.service-highlights{
+  position: relative;
+}
+.single-service-highlights {
+	width: 376px;
+	margin-right: 20px;
+	background: #4E97FD;
+	min-height: 375px;
+	padding: 20px 25px;
+	position: inherit;
+	content: "";
+	top: -187px;
+	left: 0px;
+	z-index: 222;
+}
+.single-service-highlights:last-child{
+  margin-right: 0;
+}
+.single-service-highlights i {
+	color: #fff;
+}
+
+.single-service-highlights h4 {
+  padding-top: 25px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+}
+.single-service-highlights p {
+	padding: 35px 0 50px 0;
+	color: #fff;
+}
+.single-service-highlights a.btn {
+	border: 1px solid #fff;
+}
+.single-service-highlights a.btn:hover{
+  border: 0;
+}
+.single-service-highlights ul li {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+  color: #fff;
+}
+.single-service-highlights ul li:last-child{
+  	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+.single-service-highlights ul li span {
+	padding-left: 60px;
 }
