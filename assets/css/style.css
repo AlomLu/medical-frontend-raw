@@ -3,7 +3,7 @@
   ==
 
   01. Header Area
-  02. Appointment Area
+  02. Banner Area
   03. service-highlights Area
 
 */
@@ -176,38 +176,38 @@ body{
 }
 /* #4E97FD */
 
-/* Appointment Area */
-.appointment-area {
+/* Banner Area */
+.banner-area {
   background: #F7FBFF;
 }
-.appointment-content {
+.banner-content {
   width: 550px;
   margin-right: 20px;
   left: 0px;
 }
-.appointment-content {
+.banner-content {
   padding-top: 40px;
 }
-.appointment-content h1 {
+.banner-content h1 {
   font-size: 55px;
   line-height: 65px;
   font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 35px;
 }
-.appointment-content h1 span{
+.banner-content h1 span{
   color: #0ED3B0;
 }
-.appointment-content p {
+.banner-content p {
   margin-bottom: 40px;
 }
-.appointment-img {
+.banner-img {
   width: 400px;
   position: relative;
   text-align: center;
   z-index: 2;
 }
-.appointment-img::before {
+.banner-img::before {
 	position: absolute;
 	content: "";
 	top: 55%;
@@ -219,7 +219,7 @@ body{
 	transform: translate(-50%, -50%);
 	z-index: -1;
 }
-.appointment-img img{
+.banner-img img{
   max-width: 84%;
 }
 .heart-img {
@@ -527,4 +527,37 @@ body{
 	text-transform: capitalize;
 	font-size: 18px;
 	font-weight: 300;
+}
+
+/* Why choose us area */
+
+.single-choose-us {
+  width: 390px;
+}
+.single-choose-us ul li {
+  margin-bottom: 75px;
+  position: relative;
+  padding-left: 75px;
+}
+.single-choose-us ul li i {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-size: 20px;
+  background: #DCE8FA;
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  color: #4E97FD;
+}
+.single-choose-us ul li h4 {
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+.single-choose-us ul li span {
+	color: gray;
 }
