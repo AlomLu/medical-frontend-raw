@@ -33,11 +33,11 @@ a{
 .f-right{
     float: right;
 }
-.pt-60{
-    padding-top: 60px;
+.pt-80{
+    padding-top: 80px;
 }
-.pb-60{
-    padding-bottom: 60px;
+.pb-80{
+    padding-bottom: 80px;
 }
 .pt-40{
     padding-top: 40px;
@@ -327,4 +327,86 @@ body{
 	left: 0;
 	color: #0ED3B0;
 	font-size: 20px;
+}
+
+/* 04. Why-choose-us area */
+.why-choose-us-area {
+	background-position: center;
+	background-size: cover;
+	min-height: 565px;
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: fixed;
+}
+.why-choose-us-area::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #4E97FD;
+	opacity: 0.7;
+}
+.why-choose-us {
+	position: relative;
+	z-index: 22;
+}
+.why-choose-us .section-title {
+  width: 500px;
+  margin-right: 30px;
+}
+.why-choose-us .section-title h4 {
+	color: #fff;
+	line-height: 50px;
+}
+.why-choose-us .section-title p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.why-choose-us .section-title .btn {
+	background-color: transparent;
+	border: 1px solid #fff;
+	margin-top: 15px;
+}
+.why-choose-us .section-title .btn:hover{
+  background-color: #0ED3B0;
+  border: 0;
+}
+.achievements {
+  width: 540px;
+  /*! text-align: right; */
+}
+.single-achievement {
+  width: 260px;
+  margin-right: 20px;
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.achievements .single-achievement:nth-child(2n){
+  margin-right: 0;
+}
+.achievements .single-achievement:nth-child(3), .achievements .single-achievement:nth-child(4){
+  margin-bottom: 0;
+}
+.achievements .single-achievement:nth-child(2n+1) {
+	margin-top: -27px;
+}
+.single-achievement i {
+	padding: 12px;
+	border-radius: 6px;
+	color: #fff;
+}
+.single-achievement h4 {
+	font-size: 35px;
+	font-weight: 500;
+	margin: 25px 0 13px 0;
+}
+.achievements .single-achievement:nth-child(1) i, .achievements .single-achievement:nth-child(4) i {
+	background: #4E97FD;
+}
+.achievements .single-achievement:nth-child(2) i, .achievements .single-achievement:nth-child(3) i {
+	background: #0ED3B0;
 }
