@@ -365,7 +365,7 @@ body{
 }
 
 /* 04. clinic-highlights area */
-.clinic-highlights-area {
+.clinic-highlights-area, .appointment-area {
 	background-position: center;
 	background-size: cover;
 	min-height: 565px;
@@ -373,7 +373,7 @@ body{
 	position: relative;
 	background-attachment: fixed;
 }
-.clinic-highlights-area::before {
+.clinic-highlights-area::before, .appointment-area::before {
 	position: absolute;
 	content: "";
 	top: 0;
@@ -383,7 +383,7 @@ body{
 	background: #4E97FD;
 	opacity: 0.7;
 }
-.clinic-highlights {
+.clinic-highlights, .appointment {
 	position: relative;
 	z-index: 22;
 }
@@ -560,4 +560,68 @@ body{
 }
 .single-choose-us ul li span {
 	color: gray;
+}
+
+/* Appointment area */
+
+.make-appointment {
+  width: 575px;
+  margin-right: 20px;
+  padding: 40px;
+  background: #fff;
+}
+.make-appointment h4 {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.make-appointment span {
+  color: gray;
+  display: block;
+  margin: 30px 0;
+}
+.make-appointment form input {
+	width: 100%;
+	padding: 15px 10px;
+	margin-bottom: 25px;
+	border: 1px solid #f0f0f0;
+	border-radius: 5px;
+	color: gray;
+}
+.make-appointment form input[type="date"]{
+	color: gray;
+}
+.make-appointment form input[type="submit"]{
+	cursor: pointer;
+	color: #fff;
+}
+.make-appointment form input:focus {
+	outline: 0;
+}
+.appointment-content {
+	width: 575px;
+	margin-top: 60px;
+	padding-left: 100px;
+}
+.appointment-content .section-title{
+	width: 100%;
+	color: #fff;
+}
+.appointment-content .section-title h4{
+	color: #fff;
+}
+.review {
+  color: #fff;
+  padding-top: 80px;
+  border-top: 1px solid #ddd;
+}
+.review-person h4 {
+  padding-left: 20px;
+}
+.review-person h4 span {
+  display: block;
+  padding-top: 25px;
+}
+.review-person {
+  margin-top: 40px;
 }
