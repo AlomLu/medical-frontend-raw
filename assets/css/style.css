@@ -75,9 +75,11 @@ body{
     font-size: 16px;
     line-height: 27px;
 }
-
 .section-title {
-	margin-bottom: 40px;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 80px;
 }
 .section-title h4 {
 	font-size: 35px;
@@ -92,7 +94,7 @@ body{
 	position: absolute;
 	content: "";
 	bottom: 0;
-	left: 178px;
+	left: 247px;
 	width: 90px;
 	height: 2px;
 	background: #ff3636;
@@ -101,7 +103,7 @@ body{
 	position: absolute;
 	content: "";
 	bottom: -6px;
-	left: 212px;
+	left: 285px;
 	height: 15px;
 	width: 15px;
 	background: #ff3636;
@@ -311,6 +313,37 @@ body{
 .about-content {
   width: 575px;
 }
+.about-content .section-title {
+	margin-bottom: 40px;
+}
+.about-content .section-title h4 {
+	font-size: 35px;
+	font-weight: 600;
+	text-transform: capitalize;
+	position: relative;
+	margin-bottom: 35px;
+	padding-bottom: 35px;
+	color: black;
+}
+.about-content .section-title h4::before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 178px;
+	width: 90px;
+	height: 2px;
+	background: #ff3636;
+}
+.about-content .section-title h4::after {
+	position: absolute;
+	content: "";
+	bottom: -6px;
+	left: 212px;
+	height: 15px;
+	width: 15px;
+	background: #ff3636;
+	border-radius: 50%;
+}
 .about-content ul {
 	margin: 35px 0 40px 0;
 }
@@ -409,4 +442,83 @@ body{
 }
 .achievements .single-achievement:nth-child(2) i, .achievements .single-achievement:nth-child(3) i {
 	background: #0ED3B0;
+}
+
+/* 05. Services area */
+.services-area {
+	background: #F7FBFF;
+}
+.services .single-service:nth-child(3), .services .single-service:last-child{
+	margin-right: 0;
+}
+.services .single-service:nth-child(4), .services .single-service:nth-child(5), .services .single-service:nth-child(6){
+	margin-bottom: 0;
+}
+
+.single-service {
+  width: 376px;
+  margin-right: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  transition: .3s;
+  position: relative;
+}
+.single-service:hover {
+	box-shadow: 6px 7px 8px 1px rgba(0, 0, 0, .1);
+}
+.single-service:hover i, .single-service:hover a{
+	color: #0ED3B0;
+}
+.single-service::before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	height: 3px;
+	width: 0;
+	background: #4E97FD;
+	visibility: hidden;
+	transition: .3s;
+}
+.single-service:hover::before{
+	visibility: visible;
+	width: 50%;
+}
+.single-service::after {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: 0;
+	height: 3px;
+	width: 0;
+	background: #4E97FD;
+	visibility: hidden;
+	transition: .3s;
+}
+.single-service:hover::after{
+	visibility: visible;
+	width: 50%;
+}
+.single-service i {
+  font-size: 40px;
+  color: #4E97FD;
+  /*! color: #ff3636; */
+}
+.single-service h4 {
+  margin: 30px 0;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.single-service p {
+  color: gray;
+  margin-bottom: 30px;
+}
+.single-service a {
+	color: #4E97FD;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 300;
 }
