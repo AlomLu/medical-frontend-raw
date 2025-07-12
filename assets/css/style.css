@@ -4,7 +4,16 @@
 
   01. Header Area
   02. Banner Area
-  03. service-highlights Area
+  03. Service Highlights Area
+  04. About Area
+  05. Clinic Highlights Area
+  06. Services Area
+  07. Why Choose Us Area
+  08. Appointment Area
+  09. Doctors Area
+  10. Blog Area
+  11. Contact Area
+  12. Footer Area
 
 */
 
@@ -174,7 +183,6 @@ body{
   color: black;
   font-weight: 500;
 }
-/* #4E97FD */
 
 /* Banner Area */
 .banner-area {
@@ -231,10 +239,9 @@ body{
 	width: 100px;
 	border-radius: 50%;
 }
-.heart-img img {
-	height: 80px;
-	width: 90px;
-	border-radius: 50%;
+.heart-img i {
+	font-size: 40px;
+	color: #4e97fd;
 }
 .triangle-pattern::before {
 	content: "";
@@ -248,7 +255,7 @@ body{
 	z-index: -55;
 }
 
-/* service-highlights Area */
+/* Service Highlights Area */
 .service-highlights{
   position: relative;
 }
@@ -303,6 +310,7 @@ body{
 	padding-left: 60px;
 }
 
+/* About Area */
 .about {
 	color: gray;
 }
@@ -364,7 +372,7 @@ body{
 	font-size: 20px;
 }
 
-/* 04. clinic-highlights area */
+/* Clinic Highlights Area */
 .clinic-highlights-area, .appointment-area {
 	background-position: center;
 	background-size: cover;
@@ -410,7 +418,6 @@ body{
 }
 .achievements {
   width: 540px;
-  /*! text-align: right; */
 }
 .single-achievement {
   width: 260px;
@@ -446,7 +453,7 @@ body{
 	background: #0ED3B0;
 }
 
-/* 05. Services area */
+/* Services Area */
 .services-area {
 	background: #F7FBFF;
 	text-align: center;
@@ -529,7 +536,7 @@ body{
 	font-weight: 300;
 }
 
-/* Why choose us area */
+/* Why Choose Us Area */
 
 .single-choose-us {
   width: 390px;
@@ -562,7 +569,7 @@ body{
 	color: gray;
 }
 
-/* Appointment area */
+/* Appointment Area */
 
 .make-appointment {
   width: 575px;
@@ -626,10 +633,17 @@ body{
   margin-top: 40px;
 }
 
-/* Doctors area */
+/* Doctors Area */
 .single-doctor {
   width: 292px;
   text-align: center;
+}
+.doctor-img:hover::before{
+  visibility: visible;
+  transform: scale(1);
+}
+.single-doctor:hover .doctor-content{
+  visibility: visible;
 }
 .single-doctor h4 {
   padding: 20px 0 10px 0;
@@ -641,7 +655,7 @@ body{
   color: gray;
 }
 
-/* Blog area */
+/* Blog Area */
 .blogs-area {
   background: #F7FBFF;
   text-align: center;
@@ -679,7 +693,7 @@ body{
   color: gray;
 }
 
-/* Contact area */
+/* Contact Area */
 .contact-area{
 	background-color: #12171F;
 	border-bottom: 1px solid #5D5D5D;
@@ -729,7 +743,7 @@ body{
 	color: #4e97fd;
 }
 
-/* Footer area */
+/* Footer Area */
 .footer-area {
   background: #12171F;
   padding-top: 50px;
@@ -798,12 +812,13 @@ body{
 	margin-right: 0;
 }
 .footer-widget .social-links ul li a {
-  height: 35px;
-  background: #4E4E4E;
-  width: 35px;
-  line-height: 35px;
-  text-align: center;
-  color: #fff;
+	height: 35px;
+	background: #4E4E4E;
+	width: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
 }
 .footer-widget .social-links ul li a:hover {
   background: #0ED3B0;
