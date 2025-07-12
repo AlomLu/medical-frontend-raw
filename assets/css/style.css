@@ -85,38 +85,18 @@ body{
     line-height: 27px;
 }
 .section-title {
-	text-align: center;
-	width: 50%;
-	margin: 0 auto;
 	margin-bottom: 80px;
 }
 .section-title h4 {
 	font-size: 35px;
 	font-weight: 600;
 	text-transform: capitalize;
-	position: relative;
-	margin-bottom: 35px;
-	padding-bottom: 35px;
+	margin-bottom: 30px;
 	color: black;
 }
-.section-title h4::before {
-	position: absolute;
-	content: "";
-	bottom: 0;
-	left: 247px;
-	width: 90px;
-	height: 2px;
-	background: #ff3636;
-}
-.section-title h4::after {
-	position: absolute;
-	content: "";
-	bottom: -6px;
-	left: 285px;
-	height: 15px;
-	width: 15px;
-	background: #ff3636;
-	border-radius: 50%;
+
+.doctors-area .section-title, .why-choose-us-area .section-title{
+  text-align: center;
 }
 .container{
     width: 1170px;
@@ -128,7 +108,7 @@ body{
   padding: 15px 0;
 }
 .header-contact {
-  width: 500px;
+  width: 580px;
   color: gray;
 }
 .header-contact ul li {
@@ -143,7 +123,7 @@ body{
     color: #4E97FD;;
 }
 .social-links {
-  width: 500px;
+  width: 580px;
   text-align: right;
 }
 .social-links ul li {
@@ -320,39 +300,6 @@ body{
 }
 .about-content {
   width: 575px;
-}
-.about-content .section-title {
-	margin-bottom: 40px;
-	width: 100%;
-	text-align: start;
-}
-.about-content .section-title h4 {
-	font-size: 35px;
-	font-weight: 600;
-	text-transform: capitalize;
-	position: relative;
-	margin-bottom: 35px;
-	padding-bottom: 35px;
-	color: black;
-}
-.about-content .section-title h4::before {
-	position: absolute;
-	content: "";
-	bottom: 0;
-	left: 178px;
-	width: 90px;
-	height: 2px;
-	background: #ff3636;
-}
-.about-content .section-title h4::after {
-	position: absolute;
-	content: "";
-	bottom: -6px;
-	left: 212px;
-	height: 15px;
-	width: 15px;
-	background: #ff3636;
-	border-radius: 50%;
 }
 .about-content ul {
 	margin: 35px 0 40px 0;

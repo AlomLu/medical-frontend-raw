@@ -1,0 +1,59 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+        .header-contact {
+        width: 500px;
+    }
+    .social-links {
+	    width: 400px;
+    }
+
+    .banner-img::before {
+        height: 400px;
+        width: 400px;
+    }
+    .heart-img {
+        left: -50px;
+    }
+    .single-service-highlights {
+        width: 310px;
+        top: -90px;
+    }
+    .about-img {
+        width: 440px;
+    }
+    .about-content {
+        width: 440px;
+    }
+    .about-content .section-title h4 {
+        font-size: 30px;
+    }
+    .about-content .section-title {
+        margin-bottom: 15px;
+    }
+    .about-content ul {
+        margin: 25px 0 30px 0;
+    }
+    .clinic-highlights .section-title {
+        width: 400px;
+    }
+    .achievements {
+        width: 530px;
+    }
+    .single-achievement {
+        width: 250px;
+    }
+    .section-title h4::before {
+        left: 150px;
+    }
+    .section-title h4::after {
+        left: 187px;
+    }
+    .section-title {
+        width: 55%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
