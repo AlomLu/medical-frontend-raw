@@ -625,3 +625,56 @@ body{
 .review-person {
   margin-top: 40px;
 }
+
+/* Doctors area */
+.single-doctor {
+  width: 292px;
+  text-align: center;
+}
+.single-doctor h4 {
+  padding: 20px 0 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.single-doctor span {
+  color: gray;
+}
+
+/* Blog area */
+.blogs-area {
+  background: #F7FBFF;
+  text-align: center;
+}
+.blogs {
+	margin-bottom: 60px;
+}
+.single-blog {
+  width: 376px;
+  margin-right: 20px;
+}
+.single-blog:last-child {
+  margin-right: 0;
+}
+.blog-content {
+  padding: 30px;
+  background: #fff;
+}
+.blog-content h6 {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #4e97fd;
+}
+.blog-content a {
+  font-size: 18px;
+  display: block;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.blog-content a:hover{
+	color: #4e97fd;
+}
+.blog-content span {
+  color: gray;
+}
