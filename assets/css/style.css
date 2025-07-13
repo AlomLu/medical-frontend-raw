@@ -108,8 +108,8 @@ body{
   padding: 15px 0;
 }
 .header-contact {
-  width: 580px;
-  color: gray;
+	width: 490px;
+	color: gray;
 }
 .header-contact ul li {
 	display: inline-block;
@@ -123,8 +123,8 @@ body{
     color: #4E97FD;;
 }
 .social-links {
-  width: 580px;
-  text-align: right;
+	width: 250px;
+	text-align: right;
 }
 .social-links ul li {
 	display: inline-block;
@@ -493,6 +493,9 @@ body{
   position: relative;
   padding-left: 75px;
 }
+.single-choose-us ul li:nth-child(3){
+  margin-bottom: 0;
+}
 .single-choose-us ul li i {
   position: absolute;
   left: 0;
@@ -777,7 +780,7 @@ body{
   margin-top: 60px;
 }
 .copyright {
-  width: 500px;
+	width: 390px;
 }
 .copyright p {
   color: #fff;
@@ -792,8 +795,8 @@ body{
   color: #4e97fd;
 }
 .footer-legal-links {
-  width: 500px;
-  text-align: right;
+	width: 255px;
+	text-align: right;
 }
 .footer-legal-links ul li {
   display: inline-block;
